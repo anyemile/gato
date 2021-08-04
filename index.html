@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATLOVER </title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+</style>
+<style>
+    body{
+        margin: 0;
+    }
+
+    .title-1 {
+        padding: 2%;
+        font-family: fantasy;
+        font-size: 3rem;
+        text-align: center;
+        border-radius: 5px;
+        background: #bc79ff;
+        box-shadow: -5px 5px 3px #935ec7,
+             5px -5px 3px #e594ff;
+        
+    }
+    #title-1 {
+        padding: 1%;
+        margin: 0px 400px 0px;
+        font-family: fantasy;
+        font-size: 3rem;
+        text-align: center;
+        border-radius: 5px;
+        background: #bc79ff;
+        box-shadow: -5px 5px 3px #935e,
+
+    }
+
+    .texto-p {
+        font-family:lobster;
+        font-size: 22px;
+        color: salmon;
+        background: rgb(120, 2, 70);
+        border-radius: 34px;
+        background: linear-gradient(315deg, #f0f0f0, #cacaca);
+        box-shadow:  -8px -8px 19px #929292,8px 8px 19px #ffffff;
+        margin-top: 10px;
+        text-align: center;
+        padding: 80px;
+    }
+
+    #texto-p {
+        font-family: lobster;
+        font-size: 2em;
+        background-color: rgb(55, 34,195);
+        border: white dashed;
+    }
+    .imagen{
+        border: black solid;
+        position: relative;        
+    
+    }
+    
+</style>
+<body>
+    <header>
+        <h1 class="title-1">CATLOVER FOREVER</h1>
+        <nav>
+            <ul>
+                <li>Cuenta</li>
+                <li> Cerrar Sesión</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <p class="texto-p"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+            culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <p id="texto-p"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+            culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+
+    <h3 id="title-1">SU TERNURA</h3>
+    <img class="imagen" src="/gato/Imagenes/gatito.webp" alt="miau" width="220em" height="320em">
+
+    <h3>DATOS DE TU MASCOTA</h3>
+    
+    <form action="formulario.php">
+        NOMBRE MASCOTA
+        <input type="text" name="Nombre_mascota" placeholder="Nombre"><br>
+        FECHA DE NACIMIENTO
+        <input type="date" name="fecha_nacimiento" placeholder="Fecha"><br>
+        RAZA
+        <input type="text" name="raza" id="raza" placeholder="Raza"><br>
+        EDAD
+        <input type="number" name="edad" id="edad"><br> 
+        SEXO
+        <input type="radio" name="s" id="">M
+        <input type="radio" name="s" id="">F <br>
+        E-MAIL
+        <input type="email" placeholder="email"><br>
+        <input type="submit" value="BotonSubmit">
+        <input type="button" value="BotonButton"><br>
+        <input type="checkbox" name="c"> negro
+        <input type="checkbox" name="c"> blanco <br>
+        <button type="sumit">Enviar</button> 
+    </form>
+    
+</body>
+</html>
